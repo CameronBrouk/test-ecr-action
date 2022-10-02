@@ -16,7 +16,8 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "docker": "docker build -t test-ecr-action ."
   },
   "author": "",
   "license": "ISC",
